@@ -1,0 +1,5 @@
+broadcast-mode = "block"
+chain-id = "metagarden_9999-1"
+keyring-backend = "file"
+node = "https://tendermint-rpc.metagarden.io:443"
+output = "text"

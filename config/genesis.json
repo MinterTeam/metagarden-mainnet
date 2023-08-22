@@ -1,0 +1,713 @@
+{
+  "genesis_time": "2023-08-17T03:27:07.849696Z",
+  "chain_id": "metagarden_9999-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "20000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "metagarden1xkvjjlsqq8jzpcvwdwfh9wv4f96tq7qqaas5y0",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "metagarden1t7qmhz0m2hfn98ts0edq09j7dsuzr8q2nr9335",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "metagarden1dwnv7m26ryu77ps2qykg84sw0a47lquu0z5m5w",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "metagarden1hjvvpwk980tq5swrrea07jx26mezrexp7xz32v",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "metagarden14fm49j0zn9ewavrmdq5cwwe2qjc788p78lyuqv",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "metagarden1xkvjjlsqq8jzpcvwdwfh9wv4f96tq7qqaas5y0",
+          "coins": [
+            {
+              "denom": "amega",
+              "amount": "250000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "metagarden1t7qmhz0m2hfn98ts0edq09j7dsuzr8q2nr9335",
+          "coins": [
+            {
+              "denom": "amega",
+              "amount": "250000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "metagarden1dwnv7m26ryu77ps2qykg84sw0a47lquu0z5m5w",
+          "coins": [
+            {
+              "denom": "amega",
+              "amount": "250000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "metagarden14fm49j0zn9ewavrmdq5cwwe2qjc788p78lyuqv",
+          "coins": [
+            {
+              "denom": "amega",
+              "amount": "998999999984000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "metagarden1hjvvpwk980tq5swrrea07jx26mezrexp7xz32v",
+          "coins": [
+            {
+              "denom": "amega",
+              "amount": "250000004000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "amega",
+          "amount": "1000000000000000000000000000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "claims": {
+      "claims_records": [],
+      "params": {
+        "airdrop_start_time": "0001-01-01T00:00:00Z",
+        "authorized_channels": [
+          "channel-0",
+          "channel-3"
+        ],
+        "claims_denom": "ametagarden",
+        "duration_of_decay": "5259600s",
+        "duration_until_decay": "2629800s",
+        "enable_claims": false,
+        "evm_channels": [
+          "channel-2"
+        ]
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "500000000000000000000",
+        "denom": "amega"
+      }
+    },
+    "distribution": {
+      "delegator_starting_infos": [],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": []
+      },
+      "outstanding_rewards": [],
+      "params": {
+        "base_proposer_reward": "0",
+        "bonus_proposer_reward": "0",
+        "community_tax": "0",
+        "withdraw_addr_enabled": true
+      },
+      "previous_proposer": "",
+      "validator_accumulated_commissions": [],
+      "validator_current_rewards": [],
+      "validator_historical_rewards": [],
+      "validator_slash_events": []
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "epoch_counting_started": false,
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "epoch_counting_started": false,
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "erc20": {
+      "params": {
+        "enable_erc20": true,
+        "enable_evm_hook": true
+      },
+      "token_pairs": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "active_precompiles": [
+          "0x0000000000000000000000000000000000000800",
+          "0x0000000000000000000000000000000000000801",
+          "0x0000000000000000000000000000000000000802"
+        ],
+        "allow_unprotected_txs": false,
+        "chain_config": {
+          "arrow_glacier_block": "0",
+          "berlin_block": "0",
+          "byzantium_block": "0",
+          "cancun_block": "0",
+          "constantinople_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "gray_glacier_block": "0",
+          "homestead_block": "0",
+          "istanbul_block": "0",
+          "london_block": "0",
+          "merge_netsplit_block": "0",
+          "muir_glacier_block": "0",
+          "petersburg_block": "0",
+          "shanghai_block": "0"
+        },
+        "enable_call": true,
+        "enable_create": true,
+        "evm_denom": "amega",
+        "extra_eips": []
+      }
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "block_gas": "0",
+      "params": {
+        "base_fee": "20000000000",
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 4,
+        "enable_height": "0",
+        "min_gas_multiplier": "0.500000000000000000",
+        "min_gas_price": "20000000000.000000000000000000",
+        "no_base_fee": false
+      }
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "leonardo",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "metagarden1xkvjjlsqq8jzpcvwdwfh9wv4f96tq7qqaas5y0",
+                "validator_address": "metagardenvaloper1xkvjjlsqq8jzpcvwdwfh9wv4f96tq7qqcwcyy4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "E7mH2vNNBR13rcX2mku1hY2rbzQjAchM4voT8bq4fbg="
+                },
+                "value": {
+                  "denom": "amega",
+                  "amount": "250000000000000000000000"
+                }
+              }
+            ],
+            "memo": "9296223a1c0c74dba2675b22a93c8c0b1a84830a@172.16.13.61:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A2fumrWpBQK9EW3zoTYq4YutksBqRwM413UWIS8HLjIc"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "amega",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "njJ8IjKejZdXfbJTHmWUE6mTcu1Sk627Ko72dEJ4N95+tA4wJnyYr+cCth+orSxjiLps6PDCVGosSNtdC31thwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "michelangelo",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "metagarden1t7qmhz0m2hfn98ts0edq09j7dsuzr8q2nr9335",
+                "validator_address": "metagardenvaloper1t7qmhz0m2hfn98ts0edq09j7dsuzr8q2ksdp3w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "BEZ3Fs+DsnbRtE7GAV0IzW543UvZWl604yI+XRIOG2w="
+                },
+                "value": {
+                  "denom": "amega",
+                  "amount": "250000000000000000000000"
+                }
+              }
+            ],
+            "memo": "7a09097072a027368fdf60e0f01d05b03d87fe9a@172.16.13.61:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AgpNLHynB3aw+2eQILUr2QqE3oes+GhnL+hWruYhb7oB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "amega",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "j01x2tG69P6b3zxL+yD9SRxJgtehQAEkCxJBHUMWBA51nYbx+t4jVlIYBnKZqHy2H6yO7Kg7Dbn6KhHze8QimAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "donatello",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "metagarden1dwnv7m26ryu77ps2qykg84sw0a47lquu0z5m5w",
+                "validator_address": "metagardenvaloper1dwnv7m26ryu77ps2qykg84sw0a47lquu23ut55",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Qxi74+qD+snMRcqhKb+hgC10G2XQ6/5da+6P6wBfd+s="
+                },
+                "value": {
+                  "denom": "amega",
+                  "amount": "250000000000000000000000"
+                }
+              }
+            ],
+            "memo": "7583eaf0ea551451206cf7475c5d4437a03afd41@172.16.13.61:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ApzZk3EiecbjU5l/y/mbetzuG7fZQX8L0Xxe4DPEw0Qu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "amega",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "HJtr/QCiuu86nnBs6SCqzDsMv/SMSymneG+dhX6lReIYUor7WNHD93H2aHQnqzEmQB/Rg8tJmPXA9UAXj/2XpAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "raphael",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "metagarden1hjvvpwk980tq5swrrea07jx26mezrexp7xz32v",
+                "validator_address": "metagardenvaloper1hjvvpwk980tq5swrrea07jx26mezrexpm42p2k",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "s5iXD0SRuoiAMWBj3yQn7RsJ/YheeHGF6pQVcM0Ne3E="
+                },
+                "value": {
+                  "denom": "amega",
+                  "amount": "250000000000000000000000"
+                }
+              }
+            ],
+            "memo": "c6328f7014fcda4e7df5779ad47720140aa735fa@172.16.13.61:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Ajz5Kbv+l5vPiqYGTsWBKjQ65ZoFD1kp+FpBB9SNiY+7"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "amega",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "1vuDjHWQD/ay6U4RbQfbd0ebm9M0rINeD0NqxZTiyJAsOR/y+M8sZ9TP+ftC2GRi0UMJOvi9oESsDzW1yYJZnQE="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "deposit_params": {
+        "max_deposit_period": "172800s",
+        "min_deposit": [
+          {
+            "amount": "1000000000000000000000",
+            "denom": "amega"
+          }
+        ]
+      },
+      "deposits": [],
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      },
+      "votes": [],
+      "voting_params": {
+        "voting_period": "21600s"
+      }
+    },
+    "ibc": {
+      "channel_genesis": {
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "channels": [],
+        "commitments": [],
+        "next_channel_sequence": "0",
+        "receipts": [],
+        "recv_sequences": [],
+        "send_sequences": []
+      },
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "create_localhost": false,
+        "next_client_sequence": "0",
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        }
+      },
+      "connection_genesis": {
+        "client_connection_paths": [],
+        "connections": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      }
+    },
+    "incentives": {
+      "gas_meters": [],
+      "incentives": [],
+      "params": {
+        "allocation_limit": "0.050000000000000000",
+        "enable_incentives": false,
+        "incentives_epoch_identifier": "week",
+        "reward_scaler": "1.200000000000000000"
+      }
+    },
+    "inflation": {
+      "epoch_identifier": "day",
+      "epochs_per_period": "365",
+      "params": {
+        "enable_inflation": false,
+        "exponential_calculation": {
+          "a": "300000000.000000000000000000",
+          "bonding_target": "0.660000000000000000",
+          "c": "9375000.000000000000000000",
+          "max_variance": "0.000000000000000000",
+          "r": "0.500000000000000000"
+        },
+        "inflation_distribution": {
+          "community_pool": "0.133333333000000000",
+          "staking_rewards": "0.533333334000000000",
+          "usage_incentives": "0.333333333000000000"
+        },
+        "mint_denom": "ametagarden"
+      },
+      "period": "0",
+      "skipped_epochs": "0"
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "controller_enabled": true
+        },
+        "ports": []
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "allow_messages": [
+            "*"
+          ],
+          "host_enabled": true
+        },
+        "port": "icahost"
+      }
+    },
+    "params": null,
+    "recovery": {
+      "params": {
+        "enable_recovery": false,
+        "packet_timeout_duration": "14400s"
+      }
+    },
+    "revenue": {
+      "params": {
+        "addr_derivation_cost_create": "50",
+        "developer_shares": "0.500000000000000000",
+        "enable_revenue": false
+      },
+      "revenues": []
+    },
+    "slashing": {
+      "missed_blocks": [],
+      "params": {
+        "downtime_jail_duration": "600s",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": []
+    },
+    "staking": {
+      "delegations": [],
+      "exported": false,
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "params": {
+        "bond_denom": "amega",
+        "historical_entries": 10000,
+        "max_entries": 7,
+        "max_validators": 16,
+        "min_commission_rate": "0.050000000000000000",
+        "unbonding_time": "2592000s"
+      },
+      "redelegations": [],
+      "unbonding_delegations": [],
+      "validators": []
+    },
+    "transfer": {
+      "denom_traces": [],
+      "params": {
+        "receive_enabled": true,
+        "send_enabled": true
+      },
+      "port_id": "transfer"
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
